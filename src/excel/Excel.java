@@ -73,7 +73,7 @@ public class Excel {
 			case 'v': style.setVerticalAlignment(VerticalAlignment.CENTER); break;
 			case 'w': style.setBorderBottom(BorderStyle.THIN); break;
 			case 'x': cHplr = null; link = null; cHplr = wbk.getCreationHelper();
-					  link = (XSSFHyperlink)cHplr.createHyperlink(HyperlinkType.URL); break;
+			//link = (XSSFHyperlink)cHplr.createHyperlink(HyperlinkType.URL); break;
 			case 'y': style.setWrapText(true); break;
 			case 'z': style.setBorderTop(BorderStyle.THIN); break;
 			case '1': sht.autoSizeColumn(cell.getColumnIndex()); break;
