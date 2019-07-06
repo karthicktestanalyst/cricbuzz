@@ -24,7 +24,7 @@ static WebDriver driver;
 public void start()
 {
 	//Connect and opening application URL
-	System.setProperty("webdriver.chrome.driver","F:\\Karthick\\Driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\admin\\Desktop\\kalaimani\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.cricbuzz.com/");
